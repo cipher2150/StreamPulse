@@ -4,7 +4,7 @@ A Netflix-inspired **real-time streaming analytics dashboard** that monitors vid
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project simulates how modern streaming platforms analyze playback data to ensure smooth user experience.
 
@@ -15,7 +15,7 @@ It processes video logs and answers:
 
 ---
 
-## 🎯 Features
+## Features
 
 ### 📊 Data Simulation
 - Generates 20,000+ realistic streaming logs
@@ -28,14 +28,14 @@ It processes video logs and answers:
 
 ---
 
-### ⚙️ Backend API (Flask)
+### Backend API (Flask)
 - `/metrics` → Core KPIs
 - `/network` → Network-level insights
 - Uses SQLite for fast querying
 
 ---
 
-### 📺 Interactive Dashboard (Streamlit)
+### Interactive Dashboard (Streamlit)
 - KPI cards (Bitrate, Buffering, Errors)
 - System health indicators (🟢 🟡 🔴)
 - Network performance charts
@@ -43,7 +43,7 @@ It processes video logs and answers:
 
 ---
 
-## 📊 Key Metrics
+## Key Metrics
 
 | Metric | Meaning | Why it matters |
 |------|--------|----------------|
@@ -54,7 +54,7 @@ It processes video logs and answers:
 
 ---
 
-## 🚦 System Health Logic
+## System Health Logic
 
 | Status | Condition |
 |------|----------|
@@ -71,7 +71,7 @@ Data Generator -> CSV -> Flask API -> SQLite -> Streamlit Dashboard
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python  
 - Pandas, NumPy  
@@ -81,7 +81,7 @@ Data Generator -> CSV -> Flask API -> SQLite -> Streamlit Dashboard
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone Repo
 ```bash
