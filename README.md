@@ -1,4 +1,4 @@
-# Streaming Health Analytics System
+# StreamPulse: Streaming Health Analytics System
 
 A Netflix-inspired **real-time streaming analytics dashboard** that monitors video playback performance and provides actionable insights into system health.
 
